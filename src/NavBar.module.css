@@ -1,0 +1,33 @@
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+}
+
+.nav-item {
+    flex-grow: 1;
+}
+
+.nav-button {
+    width: 100%;
+    padding: 10px;
+    border-width: thin;
+    border-top: 0;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: gray;
+}
+
+.nav-button:active {
+    background-color: black;
+    color: white;
+}
+
+.nav-button:target {
+    background-color: black;
+    color: white;
+}
